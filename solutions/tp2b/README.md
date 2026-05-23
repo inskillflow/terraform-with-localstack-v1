@@ -7,7 +7,7 @@
 ## Contenu
 
 ```text
-tp2/
+tp2b/
 ├── .env.example
 ├── .gitignore
 ├── docker-compose.yml

@@ -2,11 +2,11 @@
 
 État de référence du projet à la fin du **TP 4 version `c`** : refactor en modules du TP 3c.
 
-> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp4/`](../tp4/) (avec token).
+> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp4b/`](../tp4b/) (avec token).
 >
 > Corrigé associé : [`../../04c-Chapitre4-Pratique-04-modules-terraform-validation-streamlit-hobby-no-token.md`](../../04c-Chapitre4-Pratique-04-modules-terraform-validation-streamlit-hobby-no-token.md)
 
-## Différence avec `solutions/tp4/`
+## Différence avec `solutions/tp4b/`
 
 Identique sauf `.env.example` et `docker-compose.yml` (bypass au lieu de token).
 

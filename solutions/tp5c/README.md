@@ -2,11 +2,11 @@
 
 État de référence du projet à la fin du **TP 5 version `c`** : multi-environnements (dev + test) sur la base modulaire du TP 4c.
 
-> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp5/`](../tp5/) (avec token).
+> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp5b/`](../tp5b/) (avec token).
 >
 > Corrigé associé : [`../../05c-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit-hobby-no-token.md`](../../05c-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit-hobby-no-token.md)
 
-## Différence avec `solutions/tp5/`
+## Différence avec `solutions/tp5b/`
 
 Identique sauf `.env.example` et `docker-compose.yml` (bypass au lieu de token).
 

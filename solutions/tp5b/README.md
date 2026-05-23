@@ -7,7 +7,7 @@
 ## Structure
 
 ```text
-tp5/
+tp5b/
 ├── .env.example
 ├── .gitignore
 ├── docker-compose.yml

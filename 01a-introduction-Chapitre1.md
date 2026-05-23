@@ -128,7 +128,7 @@ Le fichier `01b-...md` (ou `01c-...md`) est structuré en **22 parties courtes**
 
 1. Relisez la partie courante en entier.
 2. Consultez la **Partie XX (Erreurs fréquentes)** du TP.
-3. Comparez votre projet avec `solutions/tp1/` (version `b`) ou `solutions/tp1c/` (version `c`).
+3. Comparez votre projet avec `solutions/tp1b/` (version `b`) ou `solutions/tp1c/` (version `c`).
 4. Vérifiez que Docker Desktop tourne (`docker info`).
 5. Vérifiez que LocalStack répond : `curl http://localhost:4566/_localstack/info`.
 

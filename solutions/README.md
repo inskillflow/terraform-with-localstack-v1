@@ -13,21 +13,21 @@ Ce dossier contient **un projet autonome et exécutable** par TP du cours « Ter
 
 | Dossier | TP corrigé | Contenu | Nouveauté par rapport au TP précédent |
 |---|---|---|---|
-| [`tp1/`](tp1/) | [TP 1b](../01b-Chapitre1-Pratique-01-terraform-localstack.md) | Docker Compose LocalStack, Terraform S3 + DynamoDB | Premier projet |
-| [`tp2/`](tp2/) | [TP 2b](../02b-Chapitre2-Pratique-02-terraform-localstack-ajout-ui.md) | TP 1 + dashboard Streamlit | Validation visuelle via Streamlit |
-| [`tp3/`](tp3/) | [TP 3b](../03b-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit.md) | TP 2 + SQS | Nouvelle ressource SQS + page Streamlit |
-| [`tp4/`](tp4/) | [TP 4b](../04b-Chapitre4-Pratique-04-modules-terraform-validation-streamlit.md) | TP 3 refactoré en modules | `modules/s3`, `modules/dynamodb`, `modules/sqs` |
-| [`tp5/`](tp5/) | [TP 5b](../05b-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit.md) | TP 4 multi-env dev / test | `environments/dev` et `environments/test` + sélecteur Streamlit |
+| [`tp1b/`](tp1b/) | [TP 1b](../01b-Chapitre1-Pratique-01-terraform-localstack.md) | Docker Compose LocalStack, Terraform S3 + DynamoDB | Premier projet |
+| [`tp2b/`](tp2b/) | [TP 2b](../02b-Chapitre2-Pratique-02-terraform-localstack-ajout-ui.md) | TP 1 + dashboard Streamlit | Validation visuelle via Streamlit |
+| [`tp3b/`](tp3b/) | [TP 3b](../03b-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit.md) | TP 2 + SQS | Nouvelle ressource SQS + page Streamlit |
+| [`tp4b/`](tp4b/) | [TP 4b](../04b-Chapitre4-Pratique-04-modules-terraform-validation-streamlit.md) | TP 3 refactoré en modules | `modules/s3`, `modules/dynamodb`, `modules/sqs` |
+| [`tp5b/`](tp5b/) | [TP 5b](../05b-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit.md) | TP 4 multi-env dev / test | `environments/dev` et `environments/test` + sélecteur Streamlit |
 
 ## Vue d'ensemble — parcours `c` (sans token, bypass)
 
 | Dossier | TP corrigé | Contenu |
 |---|---|---|
-| [`tp1c/`](tp1c/) | [TP 1c](../01c-Chapitre1-Pratique-01-terraform-localstack-hobby-no-token.md) | Identique à `tp1/`, mais `.env` et `docker-compose.yml` adaptés au bypass |
-| [`tp2c/`](tp2c/) | [TP 2c](../02c-Chapitre2-Pratique-02-terraform-localstack-ajout-ui-hobby-no-token.md) | Identique à `tp2/`, mais bypass |
-| [`tp3c/`](tp3c/) | [TP 3c](../03c-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit-hobby-no-token.md) | Identique à `tp3/`, mais bypass |
-| [`tp4c/`](tp4c/) | [TP 4c](../04c-Chapitre4-Pratique-04-modules-terraform-validation-streamlit-hobby-no-token.md) | Identique à `tp4/`, mais bypass |
-| [`tp5c/`](tp5c/) | [TP 5c](../05c-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit-hobby-no-token.md) | Identique à `tp5/`, mais bypass |
+| [`tp1c/`](tp1c/) | [TP 1c](../01c-Chapitre1-Pratique-01-terraform-localstack-hobby-no-token.md) | Identique à `tp1b/`, mais `.env` et `docker-compose.yml` adaptés au bypass |
+| [`tp2c/`](tp2c/) | [TP 2c](../02c-Chapitre2-Pratique-02-terraform-localstack-ajout-ui-hobby-no-token.md) | Identique à `tp2b/`, mais bypass |
+| [`tp3c/`](tp3c/) | [TP 3c](../03c-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit-hobby-no-token.md) | Identique à `tp3b/`, mais bypass |
+| [`tp4c/`](tp4c/) | [TP 4c](../04c-Chapitre4-Pratique-04-modules-terraform-validation-streamlit-hobby-no-token.md) | Identique à `tp4b/`, mais bypass |
+| [`tp5c/`](tp5c/) | [TP 5c](../05c-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit-hobby-no-token.md) | Identique à `tp5b/`, mais bypass |
 
 > **Différence concrète entre `tpN/` et `tpNc/` :** uniquement `.env.example` et `docker-compose.yml`. Tout le reste (Terraform, Python, structure) est **identique**.
 

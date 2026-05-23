@@ -2,11 +2,11 @@
 
 État de référence du projet à la fin du **TP 3 version `c`** : on ajoute SQS au TP 2c.
 
-> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp3/`](../tp3/) (avec token).
+> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp3b/`](../tp3b/) (avec token).
 >
 > Corrigé associé : [`../../03c-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit-hobby-no-token.md`](../../03c-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit-hobby-no-token.md)
 
-## Différence avec `solutions/tp3/`
+## Différence avec `solutions/tp3b/`
 
 Identique sauf `.env.example` et `docker-compose.yml` (bypass au lieu de token). Terraform et Streamlit identiques.
 

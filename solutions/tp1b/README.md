@@ -7,7 +7,7 @@
 ## Contenu
 
 ```text
-tp1/
+tp1b/
 ├── .env.example          modele a copier vers .env
 ├── .gitignore
 ├── docker-compose.yml    LocalStack via Docker Compose

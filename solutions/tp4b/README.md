@@ -7,7 +7,7 @@
 ## Ce qui change par rapport au TP 3
 
 ```text
-tp4/
+tp4b/
 ├── ...
 └── terraform/
     ├── main.tf            <-- appelle 3 modules

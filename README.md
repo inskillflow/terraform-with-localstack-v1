@@ -154,7 +154,7 @@ terraform-with-localstack-main/
 │
 └── solutions/                                      projets de reference executables
     ├── README.md
-    ├── tp1/  ... tp5/                              solutions parcours 'b'
+    ├── tp1b/  ... tp5b/                              solutions parcours 'b'
     └── tp1c/ ... tp5c/                             solutions parcours 'c'
 ```
 
@@ -204,7 +204,7 @@ flowchart LR
     Ch5a --> Ch5["TP 5 (b ou c)"]
 ```
 
-> **Solutions de référence :** dossier [`solutions/`](solutions/) avec un projet autonome par TP, en versions `b` (`tp1/` à `tp5/`) et `c` (`tp1c/` à `tp5c/`).
+> **Solutions de référence :** dossier [`solutions/`](solutions/) avec un projet autonome par TP, en versions `b` (`tp1b/` à `tp5b/`) et `c` (`tp1c/` à `tp5c/`).
 
 ---
 
@@ -411,7 +411,7 @@ curl http://localhost:4566/_localstack/health
 - [x] **Introductions par chapitre** — `01a-...` à `05a-...` créés.
 - [x] **Parcours `b`** — TPs 1b à 5b alignés sur le modèle LocalStack 2026 (Hobby / Student avec Auth Token).
 - [x] **Parcours `c`** — TPs 1c à 5c créés pour démarrage sans compte (bypass legacy, jusqu'au 6 nov. 2026).
-- [x] **Solutions** — projets exécutables `solutions/tp1/`…`solutions/tp5/` (parcours `b`) et `solutions/tp1c/`…`solutions/tp5c/` (parcours `c`).
+- [x] **Solutions** — projets exécutables `solutions/tp1b/`…`solutions/tp5b/` (parcours `b`) et `solutions/tp1c/`…`solutions/tp5c/` (parcours `c`).
 - [ ] **Après le 6 novembre 2026** — supprimer ou archiver les versions `c` (le bypass cesse de fonctionner).
 - [ ] Ajouter un TP 6 optionnel sur Terraform Cloud / les backends distants.
 - [ ] Compléter les corrigés des TPs 2 à 5 (au même niveau de détail que le TP 1).

@@ -359,9 +359,9 @@ Le cours propose **deux parcours parallèles**, à choisir une fois pour toutes 
 Dans le dossier [`solutions/`](solutions/) :
 
 ```text
-solutions/tp1/    <-- solution parcours b (avec token)
+solutions/tp1b/    <-- solution parcours b (avec token)
 solutions/tp1c/   <-- solution parcours c (sans token, bypass)
-solutions/tp2/  ...  tp5/
+solutions/tp2b/  ...  tp5b/
 solutions/tp2c/ ... tp5c/
 ```
 

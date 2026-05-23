@@ -2,11 +2,11 @@
 
 État de référence du projet à la fin du **TP 2 version `c`** : infrastructure Terraform (TP 1c) + dashboard Streamlit, avec bypass `LOCALSTACK_ACKNOWLEDGE_ACCOUNT_REQUIREMENT=1`.
 
-> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp2/`](../tp2/) (avec token).
+> **⚠️ Date butoir : 6 novembre 2026.** Après cette date, basculez sur [`solutions/tp2b/`](../tp2b/) (avec token).
 >
 > Corrigé associé : [`../../02c-Chapitre2-Pratique-02-terraform-localstack-ajout-ui-hobby-no-token.md`](../../02c-Chapitre2-Pratique-02-terraform-localstack-ajout-ui-hobby-no-token.md)
 
-## Différence avec `solutions/tp2/`
+## Différence avec `solutions/tp2b/`
 
 Identique sauf :
 - `.env.example` : `LOCALSTACK_ACKNOWLEDGE_ACCOUNT_REQUIREMENT=1` au lieu de `LOCALSTACK_AUTH_TOKEN=...`
