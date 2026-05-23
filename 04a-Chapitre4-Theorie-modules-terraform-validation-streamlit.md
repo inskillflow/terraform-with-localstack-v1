@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Chapitre 4 — Introduction : refactor en modules Terraform
+# Chapitre 4 — Théorie : refactor en modules Terraform
 
 > **Pré-requis :** TPs 1, 2 et 3 terminés.
 >

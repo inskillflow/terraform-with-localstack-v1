@@ -140,11 +140,11 @@ terraform-with-localstack-main/
 │
 ├── 00-theorie-terraform-localstack.md              theorie : Terraform + plans LocalStack
 │
-├── 01a-introduction-Chapitre1.md                   intro chapitre 1
+├── 01a-Chapitre1-Theorie-terraform-localstack.md                   théorie chapitre 1
 ├── 01b-Chapitre1-Pratique-01-...md                 TP 1 avec token
 ├── 01c-Chapitre1-Pratique-01-...-hobby-no-token.md TP 1 sans token (bypass)
 │
-├── 02a-introduction-Chapitre2.md                   intro chapitre 2
+├── 02a-Chapitre2-Theorie-terraform-localstack-ajout-ui.md          théorie chapitre 2
 ├── 02b-...md                                       TP 2 avec token
 ├── 02c-...-hobby-no-token.md                       TP 2 sans token
 │
@@ -162,7 +162,7 @@ terraform-with-localstack-main/
 
 | Suffixe | Sens |
 |---|---|
-| `Na-` | Introduction théorique du chapitre N (commune aux deux parcours) |
+| `Na-` | Théorie du chapitre N (commune aux deux parcours) |
 | `Nb-` | TP pratique du chapitre N, parcours **avec Auth Token** (plans Hobby / Student) |
 | `Nc-` | TP pratique du chapitre N, parcours **sans token** (bypass legacy, jusqu'au 6 nov. 2026) |
 
@@ -180,27 +180,27 @@ terraform-with-localstack-main/
 
 ### Les 5 TPs
 
-| # | Chapitre | Intro (commune) | Version `b` (token) | Version `c` (sans token) |
+| # | Chapitre | Theorie (commune) | Version `b` (token) | Version `c` (sans token) |
 |---:|---|---|---|---|
-| 1 | Terraform + LocalStack (S3, DynamoDB) | [`01a-...md`](01a-introduction-Chapitre1.md) | [`01b-...md`](01b-Chapitre1-Pratique-01-terraform-localstack.md) | [`01c-...md`](01c-Chapitre1-Pratique-01-terraform-localstack-hobby-no-token.md) |
-| 2 | Dashboard Streamlit | [`02a-...md`](02a-introduction-Chapitre2.md) | [`02b-...md`](02b-Chapitre2-Pratique-02-terraform-localstack-ajout-ui.md) | [`02c-...md`](02c-Chapitre2-Pratique-02-terraform-localstack-ajout-ui-hobby-no-token.md) |
-| 3 | Ajouter SQS | [`03a-...md`](03a-introduction-Chapitre3.md) | [`03b-...md`](03b-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit.md) | [`03c-...md`](03c-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit-hobby-no-token.md) |
-| 4 | Modules Terraform | [`04a-...md`](04a-introduction-Chapitre4.md) | [`04b-...md`](04b-Chapitre4-Pratique-04-modules-terraform-validation-streamlit.md) | [`04c-...md`](04c-Chapitre4-Pratique-04-modules-terraform-validation-streamlit-hobby-no-token.md) |
-| 5 | Multi-environnements dev / test | [`05a-...md`](05a-introduction-Chapitre5.md) | [`05b-...md`](05b-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit.md) | [`05c-...md`](05c-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit-hobby-no-token.md) |
+| 1 | Terraform + LocalStack (S3, DynamoDB) | [`01a-...md`](01a-Chapitre1-Theorie-terraform-localstack.md) | [`01b-...md`](01b-Chapitre1-Pratique-01-terraform-localstack.md) | [`01c-...md`](01c-Chapitre1-Pratique-01-terraform-localstack-hobby-no-token.md) |
+| 2 | Dashboard Streamlit | [`02a-...md`](02a-Chapitre2-Theorie-terraform-localstack-ajout-ui.md) | [`02b-...md`](02b-Chapitre2-Pratique-02-terraform-localstack-ajout-ui.md) | [`02c-...md`](02c-Chapitre2-Pratique-02-terraform-localstack-ajout-ui-hobby-no-token.md) |
+| 3 | Ajouter SQS | [`03a-...md`](03a-Chapitre3-Theorie-ajouter-sqs-terraform-validation-streamlit.md) | [`03b-...md`](03b-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit.md) | [`03c-...md`](03c-Chapitre3-Pratique-03-ajouter-sqs-terraform-validation-streamlit-hobby-no-token.md) |
+| 4 | Modules Terraform | [`04a-...md`](04a-Chapitre4-Theorie-modules-terraform-validation-streamlit.md) | [`04b-...md`](04b-Chapitre4-Pratique-04-modules-terraform-validation-streamlit.md) | [`04c-...md`](04c-Chapitre4-Pratique-04-modules-terraform-validation-streamlit-hobby-no-token.md) |
+| 5 | Multi-environnements dev / test | [`05a-...md`](05a-Chapitre5-Theorie-environnements-dev-test-terraform-validation-streamlit.md) | [`05b-...md`](05b-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit.md) | [`05c-...md`](05c-Chapitre5-Pratique-05-environnements-dev-test-terraform-validation-streamlit-hobby-no-token.md) |
 
 ### Progression conceptuelle
 
 ```mermaid
 flowchart LR
-    Th["00 - Theorie"] --> Ch1a["01a - intro"]
+    Th["00 - Theorie"] --> Ch1a["01a - theorie"]
     Ch1a --> Ch1["TP 1 (b ou c)"]
-    Ch1 --> Ch2a["02a - intro"]
+    Ch1 --> Ch2a["02a - theorie"]
     Ch2a --> Ch2["TP 2 (b ou c)"]
-    Ch2 --> Ch3a["03a - intro"]
+    Ch2 --> Ch3a["03a - theorie"]
     Ch3a --> Ch3["TP 3 (b ou c)"]
-    Ch3 --> Ch4a["04a - intro"]
+    Ch3 --> Ch4a["04a - theorie"]
     Ch4a --> Ch4["TP 4 (b ou c)"]
-    Ch4 --> Ch5a["05a - intro"]
+    Ch4 --> Ch5a["05a - theorie"]
     Ch5a --> Ch5["TP 5 (b ou c)"]
 ```
 

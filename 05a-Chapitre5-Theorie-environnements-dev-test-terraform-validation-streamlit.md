@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Chapitre 5 — Introduction : multi-environnements dev / test
+# Chapitre 5 — Théorie : multi-environnements dev / test
 
 > **Pré-requis :** TPs 1 à 4 terminés.
 >

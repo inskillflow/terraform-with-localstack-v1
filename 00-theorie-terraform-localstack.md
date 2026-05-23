@@ -329,11 +329,11 @@ Le cours propose **deux parcours parallèles**, à choisir une fois pour toutes 
 ```text
 00-theorie-...md             <-- vous etes ici, theorie commune
 
-01a-introduction-Chapitre1.md  intro chapitre 1 (commune aux 2 parcours)
+01a-Chapitre1-Theorie-terraform-localstack.md  théorie chapitre 1 (commune aux 2 parcours)
 01b-Chapitre1-Pratique-01-...md  TP 1 avec token (Hobby/Student)
 01c-Chapitre1-Pratique-01-...-hobby-no-token.md  TP 1 avec bypass
 
-02a-introduction-Chapitre2.md  intro chapitre 2
+02a-Chapitre2-Theorie-terraform-localstack-ajout-ui.md  théorie chapitre 2
 02b-...md / 02c-...md          TP 2 version b / version c
 
 (idem pour 03, 04, 05)
@@ -344,9 +344,9 @@ Le cours propose **deux parcours parallèles**, à choisir une fois pour toutes 
 | Étape | Fichier `b` (token) | Fichier `c` (bypass) |
 |---|---|---|
 | Théorie | `00-theorie-terraform-localstack.md` (commun) | idem |
-| Intro Ch.1 | `01a-introduction-Chapitre1.md` (commun) | idem |
+| Théorie Ch.1 | `01a-Chapitre1-Theorie-terraform-localstack.md` (commun) | idem |
 | TP 1 | `01b-...md` | `01c-...-hobby-no-token.md` |
-| Intro Ch.2 | `02a-introduction-Chapitre2.md` (commun) | idem |
+| Théorie Ch.2 | `02a-Chapitre2-Theorie-terraform-localstack-ajout-ui.md` (commun) | idem |
 | TP 2 | `02b-...md` | `02c-...-hobby-no-token.md` |
 | TP 3 | `03b-...md` | `03c-...-hobby-no-token.md` |
 | TP 4 | `04b-...md` | `04c-...-hobby-no-token.md` |
@@ -414,6 +414,6 @@ solutions/tp2c/ ... tp5c/
 
 ---
 
-> **Prochain document :** [`01a-introduction-Chapitre1.md`](01a-introduction-Chapitre1.md) — introduction au chapitre 1 (premier TP pratique).
+> **Prochain document :** [`01a-Chapitre1-Theorie-terraform-localstack.md`](01a-Chapitre1-Theorie-terraform-localstack.md) — théorie préparatoire du chapitre 1 (premier TP pratique).
 
 <p align="right"><a href="#top">↑ Retour en haut</a></p>

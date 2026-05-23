@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Chapitre 3 — Introduction : ajouter SQS au projet
+# Chapitre 3 — Théorie : ajouter SQS au projet
 
 > **Pré-requis :** avoir terminé les TPs 1 et 2 (parcours `b` ou `c`).
 >

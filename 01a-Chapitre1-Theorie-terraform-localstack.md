@@ -1,10 +1,10 @@
 <a id="top"></a>
 
-# Chapitre 1 — Introduction : premier projet Terraform + LocalStack
+# Chapitre 1 — Théorie : premier projet Terraform + LocalStack
 
 > **Pré-requis lecture :** [`00-theorie-terraform-localstack.md`](00-theorie-terraform-localstack.md)
 >
-> Ce document **n'a aucune commande à exécuter**. C'est une introduction au TP 1, pour comprendre ce que vous allez construire et **pourquoi**.
+> Ce document **n'a aucune commande à exécuter**. C'est une théorie préparatoire au TP 1, pour comprendre ce que vous allez construire et **pourquoi**.
 
 ---
 

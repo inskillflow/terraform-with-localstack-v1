@@ -1,10 +1,10 @@
 <a id="top"></a>
 
-# Chapitre 2 — Introduction : ajouter une UI Streamlit pour valider Terraform
+# Chapitre 2 — Théorie : ajouter une UI Streamlit pour valider Terraform
 
 > **Pré-requis :** avoir terminé le TP 1 (parcours `b` ou `c`).
 >
-> Ce document est une **introduction théorique** au TP 2. Aucune commande à exécuter ici.
+> Ce document est une **théorie préparatoire** au TP 2. Aucune commande à exécuter ici.
 
 ---
 
